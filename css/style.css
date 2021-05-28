@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* selector agrupado */
+h1, div.banner{
+ text-align: center;
+}
+
+.form{
+    text-align: center;
+}
