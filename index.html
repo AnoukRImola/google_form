@@ -18,38 +18,47 @@
         <div class="form">
             <form action="">
                               <!--Nombre y Apellidos-->
-                <label for="">
-                    <input type="text">
-                    <input type="text">
-                </label> <br>
+                <label for="nombre">Nombre</label> <br>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Nombre"> 
+                    <input type="text" id="apellidos" name="apellidos" required placeholder="Apellidos"> <br>
+                
                                <!--Nombre de Usuario-->
-                <label for="">
-                    <input type="text">
-                </label> <br>
+                <label for="email">Nombre de Usuario</label> <br>
+                    <input type="email" id="email" name="email" required placeholder="@gmail.com"> <br>
+                
                                 <!--Contraseña-->
-                <label for="">
-                    <input type="text">
-                </label> <br>
+                <label for="password">Contraseña</label> <br>
+                    <input type="password" id="password" name="password" required><br>
+                
                                 <!--Fecha de nacimiento-->
-                <label for="">
-                    <input type="text">
-                </label> <br>
+                <label for="nacimiento">Fecha de nacimiento</label> <br>
+                    <input type="date" id="nacimiento" name="nacimiento" required> <br>
+                
                                 <!--Teléfono Movil-->
-                <label for="">
-                    <input type="text">
-                </label> <br>
+                <span>Teléfono móvil</span> <br>               
+                <select name="pais" id="pais">
+                     <option value="cr">Costa Rica</option>
+                     <option value="">Venezuela</option>
+                     <option value="">Argentina</option>
+                </select>               
+                <label for="telefono"></label> 
+                    <input type="text" id="telefono" name="telefono"><br>    
+                
                                 <!--Input radio Sí-->
-                <label for="">
-                    <input type="text">
-                </label> <br>
+                <p>Deseas recibir noticias sobre Google</p>                
+                <label for="indoor">Sí</label> 
+                    <input type="radio" id="indoor" name="indoor-outdoor">
+                
                                 <!--Input radio No-->
-                <label for="">
-                    <input type="text">
-                </label> <br>
+                <label for="outdoor">No</label> 
+                    <input type="radio" id="outdoor" name="indoor-outdoor"><br>
+                
                                 <!--Checkbox-->
-                <label for="">
-                    <input type="text">
-                </label> <br>
+                <label for="terminos"></label> 
+                    <input type="checkbox" id="terminos" name="terminos" required>
+
+                <span>Acepto términos y condiciones</span> <br>   
+                
 
                 <button>Crear Cuenta</button>
             </form>
