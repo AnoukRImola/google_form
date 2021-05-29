@@ -17,10 +17,11 @@
         </div>
         <div class="form">
             <form action="">
+                <div>
                               <!--Nombre y Apellidos-->
                 <label for="nombre">Nombre</label> <br>
-                    <input class="input" type="text" id="nombre" name="nombre" required placeholder="Nombre"> 
-                    <input class="input" type="text" id="apellidos" name="apellidos" required placeholder="Apellidos"> <br>
+                    <input class="input nombre" type="text" id="nombre" name="nombre" required placeholder="Nombre"> 
+                    <input class="input apellido" type="text" id="apellidos" name="apellidos" required placeholder="Apellidos"> <br>
                 
                                <!--Nombre de Usuario-->
                 <label for="email">Nombre de Usuario</label> <br>
@@ -32,14 +33,32 @@
                 
                                 <!--Fecha de nacimiento-->
                 <label for="nacimiento">Fecha de nacimiento</label> <br>
-                    <input class="input l" type="date" id="nacimiento" name="nacimiento" required> <br>
+                    <input class="input dia" type="text" id="nacimiento" name="nacimiento" required placeholder="Día">
+
+                <select class="input mes" name="mes" id="mes">
+                    <option value="Mes">Mes</option>
+                    <option value="Enero">Enero</option>
+                    <option value="Febrero">Febrero</option>
+                    <option value="Marzo">Marzo</option>
+                    <option value="Abril">Abril</option>
+                    <option value="Mayo">Mayo</option>
+                    <option value="Junio">Junio</option>
+                    <option value="Julio">Julio</option>
+                    <option value="Agosto">Agosto</option>
+                    <option value="Septiembre">Septiembre</option>
+                    <option value="Octubre">Octubre</option>
+                    <option value="Noviembre">Noviembre</option>
+                    <option value="Diciembre">Diciembre</option>
+                </select>    
+
+                    <input class="input año" type="text" id="año" name="año" required placeholder="Año">
                 
                                 <!--Teléfono Movil-->
                 <p>Teléfono móvil</p> <br>               
                 <select name="pais" id="pais">
-                     <option value="cr">Costa Rica</option>
-                     <option value="">Venezuela</option>
-                     <option value="">Argentina</option>
+                     <option value="cr">&#x1f1e8;&#x1f1f7; +506</option>
+                     <option value="venezuela">&#x1f1fb;&#x1f1ea; +58</option>
+                     <option value="argentina">&#x1f1e6;&#x1f1f7; +54</option>
                 </select>               
                 <label for="telefono"></label> 
                     <input class="input n" type="text" id="telefono" name="telefono"><br>    
@@ -51,15 +70,14 @@
                 
                                 <!--Input radio No-->
                 <label for="outdoor">NO</label> 
-                    <input type="radio" id="outdoor" name="indoor-outdoor"><br>
+                    <input  type="radio" id="outdoor" name="indoor-outdoor"><br>
                 
-                                <!--Checkbox-->
-                <label for="terminos"></label> 
+                                <!--Checkbox--> 
                     <input type="checkbox" id="terminos" name="terminos" required>
 
                 <span>Acepto términos y condiciones</span> <br>   
+            </div>
                 
-
                 <button>Crear Cuenta</button>
             </form>
         </div>

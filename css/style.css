@@ -21,19 +21,29 @@ h1, div.banner{
     height: 450px;
 }
 
+.form{
+    padding-top: 17px;
+}
+
 label, p{
     padding-left: 17px;
+    margin-top: 17px;
    /* border: 2px solid black;*/
 }
 
 input{
     border: 0.5px solid gray;
-    margin-left: 17px;
+    margin: 6px 10px 13px 17px;
 }
 
-.input{
-    width: 120px;
-    
+.input.nombre{
+    width: 110px;  
+    margin: 6px 7px 13px 17px;  
+} 
+
+.input.apellido{
+    width: 110px;
+    margin: 6px 5px 13px 7px;
 }
 
 .input.l{
@@ -44,6 +54,25 @@ input{
     width: 178px;
     margin-left: -17px;
 }
+
+.input.dia{
+    width: 50px;
+}
+
+.input.mes{
+    width: 100px;
+    margin-left: 5px;
+}
+
+.input.año{
+    width: 80px;
+    margin-left: 5px;
+}
+
+input[name="indoor-outdoor"]{
+    margin: 0mm;
+}
+
 
 select{
     margin-left: 17px;
