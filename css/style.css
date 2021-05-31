@@ -11,24 +11,21 @@ h1, div.banner{
  text-align: center;
 }
 
+/* ----------------Generales-----------------------*/
 .form{
     font-family: 'Inter', sans-serif;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: bold;
     margin: auto;
     background-color: #ECECEC;
     width: 300px;
     height: 450px;
-}
-
-.form{
     padding-top: 17px;
 }
 
-label, p{
+label,p{
     padding-left: 17px;
-    margin-top: 17px;
-   /* border: 2px solid black;*/
+    margin: 0px;
 }
 
 input{
@@ -38,25 +35,25 @@ input{
     margin: 6px 10px 13px 17px;
 }
 
+/*---------------------Nombre-----------------------*/
 .input.nombre{
     width: 110px;  
     margin: 6px 7px 13px 17px;  
 } 
 
+/*---------------------Apellido-----------------------*/
 .input.apellido{
     width: 122px;
     margin: 6px 5px 13px 7px;
 }
 
-.input.l{
+/*---------------------Usuario y contraseña-----------------------*/
+.input.large{
     width: 260px; 
+    text-align-last: right;
 }
 
-.input.n{
-    width: 178px;
-    margin-left: -17px;
-}
-
+/*---------------------Fecha de nacimiento-----------------------*/
 .input.dia{
     width: 57px;
     margin: 6px 3px 13px 17px;
@@ -73,22 +70,37 @@ input{
     margin-left: 5px;
 }
 
-input[name="indoor-outdoor"]{
-    
-}
-
-
 select{
     margin-left: 17px;
     width: 80px ;
     padding: 3px;
 }
 
-p{
-    margin-top: 5px;
-    margin-bottom: 5px;
+/*---------------------Teléfono móvil-----------------------*/
+.input.telefono{
+    width: 177px;
+    margin: 6px 10px 13px 2px;
 }
 
-.span{
-    margin-left: 17px;
+/*---------------------Input sí y no-----------------------*/
+input.radio{
+    margin: 0px;
 }
+
+/*---------------------Input checkbox-----------------------*/
+input.checkbox{
+    margin: 13px 0px 13px 17px;
+}
+
+/*---------------------Botón-----------------------*/
+button{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    background-color: rgb(41, 129, 230);
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 25px;
+}
+
